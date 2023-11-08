@@ -1,6 +1,6 @@
 import React from "react";
 import { HeaderDesktop } from "./HeaderDesktop";
-import { HeaderMobile } from "./headerMobile";
+import { HeaderMobile } from "./HeaderMobile";
 
 export function Header() {
   const [width, setWidth] = React.useState(window.innerWidth);
