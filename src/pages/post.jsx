@@ -32,13 +32,7 @@ export function Post() {
           />
           <p className="author-name">{post.autor.nome}</p>
         </div>
-        <div className="thumbnail-container">
-          <img
-            src={`${post.imagem.url}`}
-            alt="thumbnail"
-            className="thumbnail"
-          />
-        </div>
+        <img src={`${post.imagem.url}`} alt="thumbnail" className="thumbnail" />
         <div className="post-main-content">
           <p className="post-data">{post.data}</p>
           <StructuredText
@@ -70,10 +64,10 @@ export function Post() {
                   );
                 case "VideoBlockRecord":
                   return (
-                    <ReactPlayer 
-                    url={record.externalVideo.url}
-                    controls
-                    width="100%"
+                    <ReactPlayer
+                      url={record.externalVideo.url}
+                      controls
+                      width="100%"
                     />
                   );
                 default:

@@ -20,13 +20,6 @@ export function Blog() {
         {allPosts.slice(0, visiblePosts).map((post) => (
           <Link to={`/blog/${post.slug}`} key={post.id}>
             <div className="post-snippet">
-              {/* <div className="thumbnail-container-blog">
-              <img
-                src={post.imagem.url}
-                alt={post.titulo}
-                className="thumbnail"
-              />
-            </div> */}
               <img
                 src={post.imagem.url}
                 alt={post.titulo}
