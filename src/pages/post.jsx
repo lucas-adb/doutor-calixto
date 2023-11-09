@@ -32,7 +32,7 @@ export function Post() {
           />
           <p className="author-name">{post.autor.nome}</p>
         </div>
-        <img src={`${post.imagem.url}`} alt="thumbnail" className="thumbnail" />
+        <img src={`${post.imagem.url}`} alt="thumbnail" className="thumbnail-post" />
         <div className="post-main-content">
           <p className="post-data">{post.data}</p>
           <StructuredText

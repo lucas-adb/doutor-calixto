@@ -23,7 +23,7 @@ export function Blog() {
               <img
                 src={post.imagem.url}
                 alt={post.titulo}
-                className="thumbnail"
+                className="thumbnail-blog"
               />
               <h1>{post.titulo}</h1>
               <p className="post-date">{post.data}</p>
