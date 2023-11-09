@@ -674,6 +674,16 @@ footer {
   align-items: center;
 }
 
+.post-main-content ul {
+  padding-left: 2rem;
+}
+
+.post-main-content ul li {
+  padding-left: 0;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
 /* MOBILE  */
 
 /* stylelint-disable-next-line media-feature-range-notation */
